@@ -1,6 +1,6 @@
+import gleam/list
 import gleam/option.{type Option, None, Some}
 import gleam/string
-import gleam/list
 
 /// A `Document` is a list of Gemtext elements. As Gemtext "elements"
 /// are not nested, there is no need for a nested structure here, either.

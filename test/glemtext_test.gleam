@@ -1,6 +1,6 @@
+import gleam/option.{None, Some}
 import gleeunit
 import gleeunit/should
-import gleam/option.{None, Some}
 import glemtext.{Blockquote, Heading, Link, ListItem, Preformatted, Text, parse}
 
 pub fn main() {
